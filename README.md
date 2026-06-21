@@ -1,16 +1,13 @@
-# SysReview AI - Assistente de Revisão Sistemática
+# SysFraud AI - Assistente Financeiro Inteligente
 
-Assistente virtual inteligente desenvolvido para auxiliar biomédicos e pesquisadores na triagem de artigos científicos para revisões sistemáticas, utilizando o protocolo PRISMA.
+Solução digital focada em detecção de anomalias e segurança financeira, utilizando IA generativa para oferecer respostas claras, contextualizadas e seguras aos usuários.
 
-## 6 Passos do Projeto
-1. **Documentação:** O agente foca na validação de critérios PICO para triagem de resumos.
-2. **Base de Conhecimento:** Dados estruturados em `data/criterios.txt` com as diretrizes de elegibilidade.
-3. **Prompts:** Instruções baseadas em persona de especialista em metodologia científica.
-4. **Aplicação Funcional:** Interface web desenvolvida com Streamlit e processada via Google Gemini API (modelo gemini-3.5-flash).
-5. **Avaliação:** Testado com abstracts de hematologia para validar a concordância com critérios de exclusão.
-6. **Pitch:** Ferramenta voltada para reduzir o tempo de triagem manual em 70%.
+## Objetivos do Lab
+- **Interação Natural:** Compreensão de linguagem natural para análise de transações.
+- **Segurança:** Identificação de padrões suspeitos baseada em critérios de risco.
+- **UX Financeiro:** Interface intuitiva (Streamlit) que traduz dados complexos em orientações claras para o usuário final.
 
-## Como rodar
-1. Clone o repositório.
-2. Instale as dependências: `pip install streamlit google-generativeai`
-3. Execute: `python -m streamlit run src/app.py`
+## Estrutura da Solução
+1. **Base de Conhecimento:** Regras de negócio (Padrões de transação, horários de risco e histórico).
+2. **IA Generativa:** Processamento contextualizado via modelo gemini-3.5-flash.
+3. **Aplicação:** Interface web responsiva para simulação e teste de cenários de fraude.
